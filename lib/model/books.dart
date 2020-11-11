@@ -1,0 +1,173 @@
+import 'package:buka_buku/model/book.dart';
+
+class Books {
+
+  static List<Book> totalBook = [
+    Book(
+      imageSource: 'images/Selalu di Hati.png',
+      pdfSource : 'pdf/Selalu di Hati.pdf',
+      title: 'Selalu di Hati',
+      realTitle: 'Selalu di Hati',
+      writer: 'Riezkianty Yura',
+      rating: 4.7,
+    ),
+    Book(
+      imageSource: 'images/Tentang Dia.png',
+      pdfSource : 'pdf/Tentang Dia.pdf',
+      title: 'Tentang Dia',
+      realTitle: 'Tentang Dia',
+      writer: 'Riezkianty Yura',
+      rating: 4.8,
+    ),
+    Book(
+      imageSource: 'images/Lelaki yang Tak Bisa Dicuri.png',
+      pdfSource : 'pdf/Lelaki yang Tak Bisa Dicuri.pdf',
+      title: 'Lelaki yang Tak..',
+      realTitle: 'Lelaki yang Tak Bisa Dicuri',
+      writer: 'Riezkianty Yura',
+      rating: 4.8,
+    ),
+    Book(
+      imageSource: 'images/5 cm.png',
+      pdfSource : 'pdf/Sample Book.pdf',
+      title: '5 cm',
+      realTitle: '5 cm',
+      writer: 'Donny Dhirgantoro',
+      rating: 4.7,
+    ),
+    Book(
+      imageSource: 'images/Pergi.png',
+      pdfSource : 'pdf/Sample Book.pdf',
+      title: 'Pergi',
+      realTitle: 'Pergi',
+      writer: 'Tere Liye',
+      rating: 4.8,
+    ),
+    Book(
+      imageSource: 'images/Garis Waktu.png',
+      pdfSource : 'pdf/Sample Book.pdf',
+      title: 'Garis Waktu',
+      realTitle: 'Garis Waktu',
+      writer: 'Fiersa Besari',
+      rating: 4.8,
+    ),
+    Book(
+      imageSource: 'images/Bumi Manusia.png',
+      pdfSource : 'pdf/Sample Book.pdf',
+      title: 'Bumi Manusia',
+      realTitle: 'Bumi Manusia',
+      writer: 'Pramoedya Ananta T',
+      rating: 4.5,
+    ),
+    Book(
+      imageSource: 'images/Cantik Itu Luka.png',
+      pdfSource : 'pdf/Sample Book.pdf',
+      title: 'Cantik Itu Luka',
+      realTitle: 'Cantik Itu Luka',
+      writer: 'Eka Kurniawan',
+      rating: 4.7,
+    ),
+  ];
+
+  static List<Book> listOfRecommendation = [
+    Book(
+      imageSource: 'images/Selalu di Hati.png',
+      pdfSource : 'pdf/Selalu di Hati.pdf',
+      title: 'Selalu di Hati',
+      realTitle: 'Selalu di Hati',
+      writer: 'Riezkianty Yura',
+      rating: 4.7,
+    ),
+    Book(
+      imageSource: 'images/Tentang Dia.png',
+      pdfSource : 'pdf/Tentang Dia.pdf',
+      title: 'Tentang Dia',
+      realTitle: 'Tentang Dia',
+      writer: 'Riezkianty Yura',
+      rating: 4.8,
+    ),
+    Book(
+      imageSource: 'images/Lelaki yang Tak Bisa Dicuri.png',
+      pdfSource : 'pdf/Lelaki yang Tak Bisa Dicuri.pdf',
+      title: 'Lelaki yang Tak..',
+      realTitle: 'Lelaki yang Tak Bisa Dicuri',
+      writer: 'Riezkianty Yura',
+      rating: 4.8,
+    ),
+    Book(
+      imageSource: 'images/5 cm.png',
+      pdfSource : 'pdf/Sample Book.pdf',
+      title: '5 cm',
+      realTitle: '5 cm',
+      writer: 'Donny Dhirgantoro',
+      rating: 4.7,
+    ),
+    Book(
+      imageSource: 'images/Pergi.png',
+      pdfSource : 'pdf/Sample Book.pdf',
+      title: 'Pergi',
+      realTitle: 'Pergi',
+      writer: 'Tere Liye',
+      rating: 4.8,
+    ),
+    Book(
+      imageSource: 'images/Garis Waktu.png',
+      pdfSource : 'pdf/Sample Book.pdf',
+      title: 'Garis Waktu',
+      realTitle: 'Garis Waktu',
+      writer: 'Fiersa Besari',
+      rating: 4.8,
+    ),
+  ];
+
+  static List<Book> listOfPopular = [
+    Book(
+      imageSource: 'images/Selalu di Hati.png',
+      pdfSource : 'pdf/Selalu di Hati.pdf',
+      title: 'Selalu di Hati',
+      realTitle: 'Selalu di Hati',
+      writer: 'Riezkianty Yura',
+      rating: 4.7,
+    ),
+    Book(
+      imageSource: 'images/Tentang Dia.png',
+      pdfSource : 'pdf/Tentang Dia.pdf',
+      title: 'Tentang Dia',
+      realTitle: 'Tentang Dia',
+      writer: 'Riezkianty Yura',
+      rating: 4.8,
+    ),
+    Book(
+      imageSource: 'images/Lelaki yang Tak Bisa Dicuri.png',
+      pdfSource : 'pdf/Lelaki yang Tak Bisa Dicuri.pdf',
+      title: 'Lelaki yang Tak..',
+      realTitle: 'Lelaki yang Tak Bisa Dicuri',
+      writer: 'Riezkianty Yura',
+      rating: 4.8,
+    ),
+    Book(
+      imageSource: 'images/Bumi Manusia.png',
+      pdfSource : 'pdf/Sample Book.pdf',
+      title: 'Bumi Manusia',
+      realTitle: 'Bumi Manusia',
+      writer: 'Pramoedya Ananta T',
+      rating: 4.5,
+    ),
+    Book(
+      imageSource: 'images/Cantik Itu Luka.png',
+      pdfSource : 'pdf/Sample Book.pdf',
+      title: 'Cantik Itu Luka',
+      realTitle: 'Cantik Itu Luka',
+      writer: 'Eka Kurniawan',
+      rating: 4.7,
+    ),
+    Book(
+      imageSource: 'images/Pergi.png',
+      pdfSource : 'pdf/Sample Book.pdf',
+      title: 'Pergi',
+      realTitle: 'Pergi',
+      writer: 'Tere Liye',
+      rating: 4.8,
+    ),
+  ];
+}
