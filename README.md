@@ -1,16 +1,14 @@
-# buka_buku
+# buka buku
 
-Sebuah aplikasi inovatif dari sebuah tim yang berasal dari Fasilkom 2019 agar memudahkan para writer dalam membuat konten tulisannya.
+Sebuah aplikasi inovatif dari sebuah tim yang berasal dari Fasilkom 2019 agar memudahkan para writer dalam membuat konten tulisannya. Aplikasi ini dibuat dalam rangka pemenuhan prototyping dari ide aplikasi untuk kepentingan presentasi.
 
-## Getting Started
+# Fitur Singkat!
+    
+  - Halaman Login yang meminta user memasukkan nama
+  - Terdapat pilihan buku rekomendasi maupun populer
+  - Ada fitur searching untuk mencari buku pilihan
 
-This project is a starting point for a Flutter application.
+### Installation
 
-A few resources to get you started if this is your first Flutter project:
+Aplikasi ini bisa di download di https://drive.google.com/file/d/13180e16jT7gnEyai5QsPmgYhp_3cOvKD/view?usp=sharing
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
